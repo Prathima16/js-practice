@@ -11,3 +11,8 @@ console.log("change check 123");
 console.log("Git + Replit working ");
 
 console.log("successfully connected ");
+
+//practice 
+console.log("practice 1");
+console.log("learning git and github");
+console.log("feeling good");
