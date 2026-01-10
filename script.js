@@ -16,3 +16,7 @@ console.log("successfully connected ");
 console.log("practice 1");
 console.log("learning git and github");
 console.log("feeling good");
+
+//variabls
+console.log(city);
+console.log(course);
