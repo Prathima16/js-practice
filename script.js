@@ -20,3 +20,13 @@ console.log("feeling good");
 //variabls
 console.log(city);
 console.log(course);
+
+console.log(message);
+
+//let
+console.log(msg);
+
+//const
+console.log(pi);
+console.log(number);
+
