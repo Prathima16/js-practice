@@ -52,4 +52,20 @@ console.log(typeof array);
 console.log(Array.isArray(array));
 console.log(Array.isArray(student));
 
-//
+//concatenation and tamplet literals
+let firstName = "Prathima";
+let lastName = "S";
+//console.log(firstName + " " + lastName);
+console.log("My name is"+" "+firstName + " " + lastName);
+
+//tamplet literals
+let aage = 25;
+//console.log(`My name is ${firstName} ${lastName}`);
+console.log(`My name is ${firstName} ${lastName} and i am ${aage} years old`);
+
+
+let fName = "Prathima";
+let lName = "S";
+let aag = 25;
+let multilineText = `My name is ${fName} ${lName} and i am ${aag} years old`;//backticks
+console.log(multilineText);
