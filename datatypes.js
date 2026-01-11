@@ -69,3 +69,53 @@ let lName = "S";
 let aag = 25;
 let multilineText = `My name is ${fName} ${lName} and i am ${aag} years old`;//backticks
 console.log(multilineText);
+
+//Arithmetic operators
+const x = 10;
+const y = 5;
+console.log(x+y);
+console.log(x-y);
+console.log(x*y);
+console.log(x/y);
+console.log(x%y);
+console.log(x**y);
+console.log(x**2);
+console.log(x**3);
+
+//Typr conversion
+//string to number
+const a= "10";
+const b= "5";
+console.log(Number("10")+Number(b));
+
+const d= "20";
+const e= "10";
+const p= Number(d);
+const q= Number(e);
+console.log(typeof d);
+console.log(typeof e);
+console.log(typeof p);
+console.log(typeof q);
+
+//number to string
+const f= 10;
+const g= 5;
+const c= String(f);
+const h= String(g);
+console.log(typeof f);
+console.log(typeof g);
+console.log(typeof c);
+console.log(typeof h);
+
+//boolean to string
+
+const i= "30";
+const j= "20";
+console.log(Boolean(i));
+
+const m= "Prathima";
+const n= 0;//"0" is true and 0 is false
+console.log(Boolean(n));
+console.log(Boolean(m));
+
+
