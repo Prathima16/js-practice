@@ -104,7 +104,49 @@ for(let i=1;i<=100;i++){
      console.log(`${i} is divisible by 5`);
   }else if(i%7===0){
     console.log(`${i} is divisible by 7`);
-  }else if(i%9===0){
+} else if(i%9===0){
     console.log(`${i} is divisible by 9`);
-  }
+}else{
+    console.log(`${i} is not divisible by 4,5,7,9`);
 }
+}
+
+//while loop
+let i1=1;
+while(i1<=10){
+  console.log(i1);
+  i1++;
+}
+
+//do while loop
+let i2=1;
+do{
+  console.log(i2);
+  i2++;
+}  while(i2<=10)
+
+//exercise:while loop 
+//user enters a number ,if the number is less than 50,ask the user to enter a number less than 50 again
+let readlineSync = require('readline-sync');
+let num = Number(readlineSync.question("Enter a number: "));
+while(num>=50){
+  console.log("Enter a number less than 50");
+  num = Number(readlineSync.question("Enter a number: "));
+}
+console.log("you entered a number less than 50");
+
+//error handling-try catch
+const pName = "Prathima";
+try{
+  console.log(pName.toUpperCase());
+   console.log(pName.toLowerCase());
+}  catch(error){
+  console.log(error);
+   console.log("error.name");
+   console.log("error.message");
+   console.log("error.stack");
+               
+}  finally{
+  console.log("this will always run");
+}
+console.log("code after error handling");
