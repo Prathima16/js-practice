@@ -15,7 +15,8 @@ greetUser("Naresh");
 
 //mulitple parameters and arguments
 function addTwoNumbers(num1, num2) {
-  console.log(num1 + num2);
+  let sum = num1 + num2;
+  console.log(sum);
 }
 addTwoNumbers(10, 20);
 addTwoNumbers(100, 200);
@@ -196,4 +197,5 @@ function palindrome(str){
   }
 }
 palindrome("madam");
-palindrome("prathima");
+palindrome("prathima"); 
+
